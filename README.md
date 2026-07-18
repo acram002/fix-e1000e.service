@@ -1,4 +1,4 @@
-# fix-e1000e.service
+fix-e1000e.service
 # sytemd service to disable tso, gso, gro on boot, to resolve Intel nic e1000e hardware unit hang causing proxmox nodes to go offline.
 # to use, create the .service file under /etc/systemd/system/
 # then run: 
